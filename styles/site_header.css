@@ -1,0 +1,30 @@
+header{
+    padding: 2rem 20rem;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0.625rem;
+    /* display: block; */
+}
+
+#toggle-nav:checked + header nav{
+    display: block;
+}

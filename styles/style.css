@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+@import url("reset.css");
+@import url("typography.css");
+@import url("site_header.css");
 
-/* font-family: 'PT Sans', sans-serif; */
-/* font-family: 'PT Serif', serif; */
-
-body{
-    
-}
