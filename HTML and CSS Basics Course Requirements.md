@@ -3,7 +3,7 @@
 Problems for the [“HTML and CSS Basics”](#) course @ **SoftUni**.
 
 ## Constraints
-* Change the document **title** to *"KidsCornes"*
+* Change the document **title** to *"KidsCorner"*
 * Use **"PT Sans", sans-serif** font family for the document
 * Divide your content into **header**, **main** and **footer** tags
     * Use **#50b9e1** as the primary color on the page     
