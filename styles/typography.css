@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
 
-/* font-family: 'PT Sans', sans-serif; */
-/* font-family: 'PT Serif', serif; */
-
 html{
     font: 16px/1.5 'PT Sans', sans-serif;
 }
@@ -31,7 +28,7 @@ body, input, textarea, select, option, table, th, td{
 
 @media screen and (min-width: 1400px){
     html{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 

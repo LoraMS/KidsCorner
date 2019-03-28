@@ -1,18 +1,16 @@
 header{
-    padding: 2rem 20rem;
+    
+}
+
+/* Navigation */
+.logo span{
+    color: #50b9e1;
 }
 
 header .navigation {
+    padding: 2rem 15rem;
     display: flex;
     justify-content: space-between;
-}
-
-nav{
-    display: none;
-}
-
-nav ul {
-    list-style-type: none;
 }
 
 nav ul li {
@@ -20,11 +18,17 @@ nav ul li {
 }
 
 nav ul li a{
-    text-decoration: none;
     padding: 0.625rem;
-    /* display: block; */
+    display: inline-block;
+    text-transform: uppercase;
 }
 
-#toggle-nav:checked + header nav{
-    display: block;
+nav ul li a:hover{
+   color: #50b9e1;
 }
+
+#toggle-nav, label{
+    display: none;
+}
+
+

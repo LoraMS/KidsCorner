@@ -1,0 +1,19 @@
+body {
+    color: rgb(100, 100, 100);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
