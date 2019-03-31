@@ -1,14 +1,10 @@
-header{
-    
-}
-
 /* Navigation */
-.logo span{
-    color: #50b9e1;
+header{
+    padding-bottom: 2rem;
 }
-
 header .navigation {
-    padding: 2rem 15rem;
+    width: 65%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
