@@ -19,7 +19,6 @@ Problems for the [“HTML and CSS Basics”](#) course @ **SoftUni**.
         * Border width - **2px**
         * Border color - **white**
         * Border style - **solid**
-        * Hover effect *(look at the screenshots)*
 * Use **section** tag to create three **sections** inside the main
 * Use **h2** tag for the section headings
     * Font family - **"PT Serif"**
@@ -40,15 +39,14 @@ Problems for the [“HTML and CSS Basics”](#) course @ **SoftUni**.
     * The buttons should have:
         * Font size - **18px**
         * Background - **transparent**
-        * Font color - **#43bae3**
+        * Font color - **#50b9e1**
         * Border width - **2px**
-        * Border color - **#43bae3**
+        * Border color - **#50b9e1**
         * Border style - **solid**
-        * Hover effect *(look at the screenshots)*
 * The **footer** should have the following properties:
     * Font size - **16px**
     * Font color - **#5a7c8a**
-    * Background color - **#43bae3**    
+    * Background color - **#50b9e1**    
 
 ## Hints
 * You can use [Font Awesome](https://fontawesome.com/) for icons
