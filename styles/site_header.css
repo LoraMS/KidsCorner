@@ -3,7 +3,7 @@ header{
     padding-bottom: 2rem;
 }
 header .navigation {
-    width: 65%;
+    width: 68%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -25,6 +25,21 @@ nav ul li a:hover{
 
 #toggle-nav, label{
     display: none;
+}
+
+.nav {
+	position: -webkit-sticky;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 16%;
+    top: 0;
+    z-index: 3;
+    border-top: 0;
+    padding: 0 1rem;
+    background-color: rgb(255, 255, 255);
 }
 
 
