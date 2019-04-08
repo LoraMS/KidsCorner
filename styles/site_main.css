@@ -307,9 +307,6 @@ main {
 .contact-info {
     flex: 1;
     position: relative;
-    /* background-image: url("/images/camping2.jpg");
-    background-position: center center;
-    background-size: cover; */
 }
 
 .contact-info:after {
@@ -318,7 +315,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("/images/camp.jpg");
+    background-image: url("images/camp.jpg");
     background-position: center center;
     background-size: cover;
     width: 100%;
