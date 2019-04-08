@@ -315,7 +315,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("images/camp.jpg");
+    background-image: url("../images/camp.jpg");
     background-position: center center;
     background-size: cover;
     width: 100%;
