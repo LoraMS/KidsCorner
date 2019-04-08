@@ -57,27 +57,5 @@ $(document).on('ready', function () {
   $(window).scroll(function() {
       stickyNav();
   });
-
-
-
-    // Summary
-    // Notify.js is a jQuery plugin to provide simple yet fully customisable notifications. The javascript code snippets in this documentation with the green edge are runnable by clicking them.
-    // $.notify("Hello World");
-
-
-    // Basic Usage
-    // Element Notifications
-    // You can place notifications on any element:
-    // $(".elem-demo").notify("Hello Box");
-
-
-    // Success
-    // $.notify("Access granted", "success");
-    // Info
-    // $.notify("Do not press this button", "info");
-    // Warning
-    // $.notify("Warning: Self-destruct in 3.. 2..", "warn");
-    // Error
-    // $.notify("BOOM!", "error");
 });
 
