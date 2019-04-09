@@ -307,9 +307,12 @@ main {
 .contact-info {
     flex: 1;
     position: relative;
+    background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url("../images/camp.jpg");
+    background-position: center center;
+    background-size: cover;
 }
 
-.contact-info:after {
+/* .contact-info:after {
     content: "";
     display: block;
     position: absolute;
@@ -322,15 +325,15 @@ main {
     height: 100%;
     opacity: 0.5;
     z-index: -1;
-}
+} */
 
 .contact-info .info {
-    text-shadow: 1px 1px 10px rgb(168, 168, 168);
     position: relative;
     float: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
 }
 
 .contact-info .info .ico {
