@@ -1,17 +1,65 @@
-@media screen and (max-width: 1024px) {
-    .slider .slider-caption {
-        height: 98%;
-      }
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 18px;
+    }
+
+    #camps ul li {
+        width: 31.5%;
+    }
 }
 
-@media screen and (max-width: 960px) {}
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+    .slider .slider-caption {
+        height: 98%;
+    }
+
+    .slider .slider-caption h1 {
+        font-size: 2.2rem;
+        width: 80%;
+        letter-spacing: 3px;
+    }
+
+    #welcome {
+        padding: 2rem 4rem;
+    }
+
+    #offerts ul li {
+        width: 45%;
+    }
+
+    #camps ul li {
+        margin-bottom: 2rem;
+        width: 48%;
+    }
+
+    #camps ul li:nth-of-type(2n+0) {
+        margin-right: 0;
+    }
+
+    .contact-info .info .ico::before {
+        position: absolute;
+        top: 0;
+        left: -2rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* @media screen and (max-width: 960px) {} */
 
 @media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
     nav ul li {
         display: block;
     }
 
-    #toggle-nav, label{
+    #toggle-nav, label {
         display: inline-block;
     }
 
@@ -22,14 +70,240 @@
     #toggle-nav:checked+header nav {
         display: block;
     }
+
+    #offerts ul li {
+        width: 100%;
+    }
+
+    #camps>p {
+        width: 80%;
+    }
+
+    #camps ul li {
+        width: 100%;
+    }
+    #gallery>p {
+        width: 80%;
+    }
+
+    .gallery-item-1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .gallery-item-2 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .gallery-item-3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+    .gallery-item-4 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+
+    .gallery-item-5 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 10;
+    }
+
+    .gallery-item-6 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 10;
+    }
+    
+    .gallery-item-7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 13;
+    }
+
+    .gallery-item-8 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 10;
+        grid-row-end: 13;
+    }
+
+    .gallery-item-9 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 13;
+        grid-row-end: 16;
+    }
+
+    .contact-info {
+        flex: 1 1 100%;
+        padding: 6rem 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-form {
+        flex: 1 1 100%;
+        margin: 3rem 0;
+    }
+
+    .contact-form form {
+        margin-left: 0;
+        float: none;
+    }
 }
 
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
+    .slider .slider-caption {
+        padding: 3rem 4rem;
+    }
 
-@media screen and (max-width: 576px) {}
+    .slider .slider-caption h1 {
+        font-size: 1.8rem;
+        width: 90%;
+        letter-spacing: 2px;
+    }
 
-@media screen and (max-width: 480px) {}
+    #welcome {
+        padding: 2rem 0;
+    }
+}
 
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 576px) {
+    .slider .slider-caption {
+        padding: 2rem 2rem;
+    }
 
-@media screen and (max-width: 320px) {}
+    #camps>p {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+
+    #camps ul li {
+        margin: 0;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    footer ul li {
+        padding-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider {
+        display: none;
+    }
+
+    #camps>p {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    footer ul {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #offerts ul li {
+        padding: 1.25rem 0;
+    }
+
+    #gallery>p {
+        width: 100%;
+    }
+
+    .gallery-item-1 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .gallery-item-2 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+
+    .gallery-item-3 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 10;
+    }
+    .gallery-item-4 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 10;
+        grid-row-end: 13;
+    }
+
+    .gallery-item-5 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 13;
+        grid-row-end: 16;
+    }
+
+    .gallery-item-6 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 16;
+        grid-row-end: 19;
+    }
+    
+    .gallery-item-7 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 19;
+        grid-row-end: 22;
+    }
+
+    .gallery-item-8 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 22;
+        grid-row-end: 25;
+    }
+
+    .gallery-item-9 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 25;
+        grid-row-end: 28;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contact-info {
+        padding: 2rem 2rem;
+    }
+}
