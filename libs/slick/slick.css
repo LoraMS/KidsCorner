@@ -163,13 +163,14 @@
     top: 0;
     left: 0;
     line-height: 10vh;
-    padding: 10rem 6rem;
+    padding: 4rem 6rem;
     background: rgba(0, 0, 0, 0.2);
   }
 
   .slider .slider-caption h1{
-      font-size: 4rem;
+      font-size: 3rem;
       width: 50%;
+      letter-spacing: 3px;
   }
 
   .slider .slider-caption a{
