@@ -1,10 +1,10 @@
-@media screen and (min-width: 1440px) {
-    html {
-        font-size: 18px;
-    }
-
+@media screen and (max-width: 1440px) {
     #camps ul li {
-        width: 31.5%;
+        width: 31%;
+    }
+    
+    #camps ul li:not(:last-child) {
+        margin-right: 1.5rem;
     }
 }
 
@@ -33,12 +33,16 @@
 
     #camps ul li {
         margin-bottom: 2rem;
-        width: 48%;
+        width: 30%;
     }
 
-    #camps ul li:nth-of-type(2n+0) {
-        margin-right: 0;
+    #camps ul li:not(:last-child) {
+        margin-right: 2rem;
     }
+
+    /* #camps ul li:nth-of-type(2n+0) {
+        margin-right: 0;
+    } */
 
     .contact-info .info .ico::before {
         position: absolute;

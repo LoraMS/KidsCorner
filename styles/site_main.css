@@ -75,11 +75,11 @@ main {
 }
 
 #camps ul li{
-    width: 32%;
+    width: 31.5%;
 }
 
 #camps ul li:not(:last-child) {
-    margin-right: 1.4rem;
+    margin-right: 1.7rem;
 }
 
 #camps ul li img {

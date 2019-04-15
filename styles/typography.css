@@ -39,3 +39,9 @@ h6{
 p{
     margin-bottom: 1.5em;
 }
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 18px;
+    }
+}
